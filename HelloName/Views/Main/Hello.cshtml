@@ -1,0 +1,18 @@
+﻿@model HelloName.Models.Person;
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello @Model.Name</title>
+        <link rel="stylesheet" href="~/css/HelloPage.css" />
+    </head>
+    <body>
+        <div class="hello-content">
+            <h2>
+                <p>Hello <span class="person-name">@Model.Name</span></p>
+                <p>We are glad to see you!</p>
+            </h2>
+        </div>
+    </body>
+</html>

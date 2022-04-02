@@ -1,0 +1,14 @@
+﻿.hello-content {
+    margin-top: 5%;
+    text-align: center;
+    text-align: center;
+    font-family: Arial;
+}
+
+.person-name {
+    font-style: italic;
+}
+
+.hello-content p {
+    margin: 10px;
+}
